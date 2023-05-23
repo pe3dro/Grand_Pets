@@ -1,0 +1,116 @@
+body{
+    background-color: #c57d56;
+    align-items: center;
+}
+header{
+    background: #5d2417;
+    position: relative;
+}
+img.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    .mainmenubtn {
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+        padding:10px;
+        position: relative;
+        top:-280px;
+        
+    }
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        position: relative;
+        top: -280px;
+        background-color: white;
+        min-width: 200px;
+    }
+    .dropdown-child a {
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+    .mainmenubtn:hover {
+        background-color: white;
+        }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: helvetica;
+        color: gray;
+        border: none;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    h2{
+        color: white;
+    }
+    h3{
+        color: white;
+        
+    }
+    .dog{
+        border:solid  #5d2417;
+    }
+   .comen{
+    border: solid black;
+   }
+   .emitir{
+    background-color: white;
+    border: none;
+    padding:10px;
+    position: relative;
+   }
+   .coment{
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px  30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+   }
+ #teste{
+    background-color: white;
+    border: none;
+    position: relative;
+    padding: 10px;
+    width: 5%;
+ }
+ #an1{
+    background-color: aqua;
+    background-color: white;
+    border: none;
+    position: relative;
+    padding: 10px;
+    width: 5%;
+ }
+ .a1{
+    background-color: aqua;
+    background-color: white;
+    border: none;
+    position: relative;
+    padding: 10px;
+    width: 5%;
+ }
+ .roda{
+    background-color: grey;
+    color: white;
+    height: 100px;
+    width: 100%;
+ }

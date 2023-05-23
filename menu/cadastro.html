@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilo/cadastro.css" />
+    <title>cadastro</title>
+</head>
+<body>
+<div id="cadastro-container">
+    <h1>CADASTRO</h1>
+        <form action="../processa.php" method="post">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+            <label for="name">Nome</label>
+            <input type="name" name="nome" id="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label for="idade">idade</label>
+            <input type="idade" name="idade" id="idade" placeholder="Sua idade" autocomplete="off" required>
+            <label for="telefone">Telefone</label>
+            <input type="telefone" name="telefone" id="telefone" placeholder="Seu telefone" required>
+            <label for="cpf">Cpf</label>
+            <input type="cpf" name="cpf" id="cpf" placeholder="Seus cpf" required>
+            <label for="localidade">Localidade</label>
+            <input type="localidade" name="localidade" id="localidade" placeholder="Seu endereço" required>
+            <input type="submit" value="cadastrar" name="cadastrar">
+            <a href="../index.html">voltar</a>
+        </form>
+</div>
+</body>
+</html>
