@@ -114,3 +114,13 @@ img.image{
     height: 100px;
     width: 100%;
  }
+ .back{
+    background-color: white;
+    top:-280px;
+    width: 4%;
+    height: 8%;
+    padding: 10px;
+    border: none;
+
+
+ }
