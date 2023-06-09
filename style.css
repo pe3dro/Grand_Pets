@@ -63,6 +63,12 @@ img.image{
         color: white;
         
     }
+    p{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+        text-align: left;
+    }
     .dog{
         border:solid  #5d2417;
     }
@@ -122,3 +128,9 @@ img.image{
     padding: 10px;
     border: none;
  }
+ #circulo {
+    background: #5d2417;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
