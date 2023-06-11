@@ -69,6 +69,9 @@ img.image{
         font-size: larger;
         text-align: left;
     }
+    #tex{
+        text-align: center;
+    }
     .dog{
         border:solid  #5d2417;
     }
