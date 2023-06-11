@@ -18,7 +18,7 @@
             <label for="password">Senha</label>
             <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
             <a href="#" id="forgot-pass">Esqueçeu a senha?</a>
-            <input type="submit" value="login" onclick="log()">
+            <input type="submit" value="login" onclick="log(); return false">
            
             <a href="index.html">voltar</a>
         </form>

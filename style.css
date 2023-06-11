@@ -72,6 +72,12 @@ img.image{
     #tex{
         text-align: center;
     }
+    #rodapé{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #s{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     .dog{
         border:solid  #5d2417;
     }
@@ -136,4 +142,5 @@ img.image{
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    
 }
