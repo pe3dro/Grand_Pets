@@ -33,8 +33,17 @@
     <script>
        function log()
     {
-        alert("Você está logado.")
+        var logar = document.getElementById('email').value;
+        var senha = document.getElementById('password').value;
+
+        if(login == $email && $senha){
+            alert("Você está logado.")
         window.location = "index.html";
+        }
+        else{
+            alert('erro ao logar');
+        }
+        
     }
   </script>
 

@@ -1,6 +1,6 @@
 <?php 
-include_once('conexao.php');
-session_start();
+ include_once('conexao.php');
+ session_start();
 
 if (isset($_POST['login'])) {
     $email = $_POST['email'];
@@ -16,10 +16,6 @@ if (isset($_POST['login'])) {
         if($valor['email'] == $email && $valor['senha']==$senha){
             $login = true;
                 echo $login;
-                
-            
-
-    
     }
     if($login == true){
         $sql ='SELECT * FROM cliente where email='.$email.'';
@@ -34,16 +30,8 @@ if (isset($_POST['login'])) {
                 $_SESSION['telefone'] = $list['Telefone'];
                 $_SESSION['cpf'] = $list['Cpf'];
                 $_SESSION['localidade'] = $list['Localidade'];
-        echo'
-    <script>
-    alert("Logado");
-    window.location = "index.html";
-    </script>
-';
-    }else{
-        echo "não logado";
-    }
 
+}
 }
 }
 ?>
