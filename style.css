@@ -101,6 +101,9 @@ img.image{
    .comen{
     border: solid black;
    }
+   h4{
+    color: white;
+   }
    .emitir{
     background-color: white;
     border: none;
@@ -149,7 +152,7 @@ img.image{
  .roda{
     background-color: grey;
     color: white;
-    height: 100px;
+    height: 100%;
     width: 100%;
  }
  .back{
