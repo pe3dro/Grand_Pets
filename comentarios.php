@@ -11,6 +11,8 @@ $sql = "DELETE FROM `comentarios` WHERE 1 ";
 
 $consulta = mysqli_query($conn, $sql);
 
+
+
 echo'
     <script>
     alert("Comentario enviado");

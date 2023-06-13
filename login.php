@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo/login.css" />
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon" />
     
     <title>Grand Pets</title>
     
@@ -18,7 +19,7 @@
             <label for="password">Senha</label>
             <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
             <a href="#" id="forgot-pass">Esqueçeu a senha?</a>
-            <input type="submit" value="login" onclick="log(); return false">
+            <input type="submit" value="login">
            
             <a href="index.html">voltar</a>
         </form>
@@ -30,22 +31,6 @@
        
         </div>
     </div>
-    <script>
-       function log()
-    {
-        var logar = document.getElementById('email').value;
-        var senha = document.getElementById('password').value;
-
-        if(login == $email && $senha){
-            alert("Você está logado.")
-        window.location = "index.html";
-        }
-        else{
-            alert('erro ao logar');
-        }
-        
-    }
-  </script>
 
 </body>
 </html>
