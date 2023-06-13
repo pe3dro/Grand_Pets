@@ -64,6 +64,12 @@ img.image{
         font-size: larger;
         
     }
+    #seta{
+        position: absolute;
+        right: 0px;
+        width: 110px;
+        padding: 10px;
+    }
     p{
         color: white;
         font-size: larger;
@@ -154,14 +160,7 @@ img.image{
     color: white;
     height: 100%;
     width: 100%;
- }
- .back{
-    background-color: white;
-    top:-280px;
-    width: 3%;
-    height: 5%;
-    padding: 10px;
-    border: none;
+    position: relative;
  }
  #circulo {
     background: #5d2417;
