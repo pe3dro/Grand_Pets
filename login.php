@@ -21,7 +21,7 @@
             <a href="#" id="forgot-pass">Esqueçeu a senha?</a>
             <input type="submit" value="login">
            
-            <a href="index.php">voltar</a>
+            <a href="../index.html">voltar</a>
         </form>
         <a href="deslog.php">Deslogar</a>
         <div id="register-container">

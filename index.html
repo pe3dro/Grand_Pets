@@ -26,15 +26,87 @@
       <h1 id="h"></h1>
      <br>
      <h2 id="tex">Animais para a adoção</h2>
+
+     <div class="slider">
+
+      <div class="slides">
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+
+        <div class="slide1">
      <a href="menu/doaçoes.html">
      <img class="dog" src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_640.jpg" height="400px" width="600px">
     </a>
+  </div>
+  <div class="slide2">
     <a href="menu/doaçoes.html">
       <img class="dog" src="https://t.ctcdn.com.br/XY1SGrfWo0c_D9GxKrxrN0OvSns=/512x288/smart/filters:format(webp)/i558611.jpeg" height="400px" width="600x">
     </a>
+  </div>
+
+  <div class="slide3">
     <a href="menu/doaçoes.html">
       <img class="dog" src="https://fisiocarepet.com.br/wp-content/uploads/2022/02/cachorro.png" height="400px" width="600x">
     </a>
+  </div>
+
+  <div class="slide4">
+    <img src="imagens/1.png">
+  </div>
+
+  <div class="slide5">
+    <img src="imagens/2.png">
+  </div>
+
+  <div class="radio6">
+    <img src="imagens/3.png">
+  </div>
+
+  <div class="navigation-auto">
+    <div class="autobtn1"></div>
+    <div class="autobtn2"></div>
+    <div class="autobtn3"></div>
+    <div class="autobtn4"></div>
+    <div class="autobtn5"></div>
+    <div class="autobtn6"></div>
+
+  </div>
+  </div>
+  
+  <div class="manual-navigation">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+    <label for="radio5" class="manual-btn"></label>
+    <label for="radio6" class="manual-btn"></label>
+  </div>
+  </div>
+
+  <script>
+    let count = 1;
+    document.getElementById("radio1").checked = true;
+    
+    setInterval(function(){
+     nextimage();
+    }, 2000)
+
+    function nextimage(){
+      count++;
+      if(count>6){
+        count = 1;
+      }
+      document.getElementById("radio"+count).checked = true;
+
+
+    }
+  </script>
+
       <h1>Comentarios</h1>
       <div class="coment">
       <form action="comentarios.php" method="post">
