@@ -69,7 +69,7 @@
                 if($adm == 0){
                     echo'Usuario administrador';
                 }else{
-                    echo'Usuario normal';
+                    echo'Usuario normal';                       
                 }
                 echo "
                 <script>

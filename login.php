@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo/login.css" />
-    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon" />                                                                                       
     
     <title>Grand Pets</title>
     
@@ -21,7 +21,7 @@
             <a href="#" id="forgot-pass">Esqueçeu a senha?</a>
             <input type="submit" value="login">
            
-            <a href="index.html">voltar</a>
+            <a href="index.php">voltar</a>
         </form>
         <a href="deslog.php">Deslogar</a>
         <div id="register-container">

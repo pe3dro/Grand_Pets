@@ -17,8 +17,8 @@
     <a href="menu/cadastro.html">Cadastro</a>
     <a href="menu/doaçoes.html">Doações</a>
     <a href="menu/cuidado.html">Como cuidar do seu animal</a>
-    <a href="login.php">Login
-    </a>
+    <a href="login.php">Login</a>
+    <a href="deslog.php" class="des">Deslogar</a>
   </div> <br>
    </header> 
      <h1>BEM-VINDO</h1>
@@ -62,6 +62,14 @@
 
 
     </div>
+    <?php
+     //verifica toda se o usuario está com login feito
+     
+     require 'verifica.php';
+    
+    
+    
+    ?>
     
 </body>
 </html>
