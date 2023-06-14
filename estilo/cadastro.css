@@ -12,7 +12,7 @@
  textarea:focus, input:focus{
     outline: none;
  }
- slabel{
+ label{
     font-size: .8rem;
  }
  
